@@ -1,0 +1,82 @@
+{
+  "user": [
+    {
+      "id": 4,
+      "name": "Sathish K",
+      "email": "sam@gmail.com",
+      "active": true,
+      "password": "Admin123"
+    },
+    {
+      "id": 11,
+      "name": "anju m",
+      "email": "anju@gmail.com",
+      "active": true
+    },
+    {
+      "id": 12,
+      "name": "nirmal",
+      "email": "nirmal@gmail.com",
+      "active": true
+    },
+    {
+      "id": 13,
+      "name": "jefrin",
+      "email": "jefrin@gmail.com",
+      "active": true
+    },
+    {
+      "id": 14,
+      "name": "asif",
+      "email": "asif@gmail.com",
+      "active": true
+    },
+    {
+      "id": 15,
+      "name": "arjun",
+      "email": "arjuin@gmail.com",
+      "active": true
+    },
+    {
+      "id": 16,
+      "name": "aswathy",
+      "email": "xxx@gmail.com",
+      "active": true
+    },
+    {
+      "id": 1,
+      "name": "Akash  kumar",
+      "email": "akash@gmail.com",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Surya",
+      "email": "surya@gmail.com",
+      "active": true
+    }
+  ],
+  "admin": [
+    {
+      "username": "admin",
+      "password": "admin"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

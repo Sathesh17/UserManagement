@@ -1,0 +1,66 @@
+
+<!-- 
+            <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm)">
+                <div class="form-group">
+                  <label for="id">ID:</label>
+                  <input readonly type="number" id="id" name="id" [(ngModel)]="userModel.id" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" [(ngModel)]="userModel.name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" [(ngModel)]="userModel.email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="active">Active:</label>
+                  <input type="checkbox" id="active" name="active" [(ngModel)]="userModel.active" class="form-check-input">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              
+        </div>
+    </div>
+
+</div> -->
+<form #userForm="ngForm" (ngSubmit)="onSubmit(userForm)">
+  <section class="vh-100" style="background-color: #e7e9ed;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card shadow-2-strong" style="border-radius: 1rem;">
+            <div class="card-body p-5 text-center" style="background-color: #3297a6;">
+              <div class="form-group">
+                <label for="id">ID:</label>
+                <input readonly type="number" id="id" name="id" [(ngModel)]="userModel.id" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" [(ngModel)]="userModel.name" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" [(ngModel)]="userModel.email" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="active">Active:</label>
+                <input type="checkbox" id="active" name="active" [(ngModel)]="userModel.active" class="form-check-input">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+             
+              <hr class="my-4">
+  
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</form>
+       
+
+
+
